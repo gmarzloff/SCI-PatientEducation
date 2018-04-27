@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Required meta tags-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no,  viewport-fit=cover">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <!-- Color theme for statusbar -->
+    <meta name="theme-color" content="#2196f3">
+    <!-- Your app title -->
+    <title>SCI Patient Education</title>
+    <!-- Path to Framework7 Library CSS -->
+    <link rel="stylesheet" href="dist/css/framework7.min.css">
+    <link rel="stylesheet" href="dist/css/framework7-icons.css">
+    <!-- Path to your custom app styles-->
+    <link rel="stylesheet" href="css/app.css">
+  </head>
+  <body>
+    <!-- App root element -->
+    <div id="app">
+
+        <!-- Status bar overlay for fullscreen mode-->
+        <div class="statusbar"></div>
+
+        <!-- Your main view, should have "view-main" class -->
+        <div class="view view-main">
+            <!-- Initial Page, "data-name" contains page name -->
+            <div class="page" data-name="home">
+
+                <!-- Top Navbar -->
+                <div class="navbar">
+                    <div class="navbar-inner">
+                    <div class="title sliding">Spinal Cord Injury Patient Education</div>
+                    </div>
+                </div>
+
+                <!-- Toolbar (uncomment to use) -->
+                <!-- <div class="toolbar">
+                    <div class="toolbar-inner">
+                    <!-- Toolbar links -->
+                    <!--<a href="#" class="link">Link 1</a>
+                    <a href="#" class="link">Link 2</a>
+                    </div>
+                </div> -->
+
+                <!-- Scrollable page content -->
+                <div class="page-content">
+
+                    <div class="block-title">Overview</div>
+                    <div class="list">
+                        <ul>
+                            <!-- <li> are list elements, use one for each link item -->
+                            <li>
+                                <a href="/etiology/" class="item-link item-content">
+                                    <div class="item-media"><i class="icon f7-icons">document</i></div>
+                                    <div class="item-inner">
+                                    <div class="item-title">The Etiology of SCI</div>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="/outcomes/" class="item-link item-content">
+                                    <div class="item-media"><i class="icon f7-icons">document</i></div>
+                                    <div class="item-inner">
+                                    <div class="item-title">Outcomes</div>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="/about/" class="item-link item-content">
+                                    <div class="item-media"><i class="icon f7-icons">info</i></div>
+                                    <div class="item-inner">
+                                    <div class="item-title">About</div>
+                                    </div>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                             
+                    <div class="block-title">Medical Complications</div>
+                    <div class="list">
+                        <ul>
+                            <!-- <li> are list elements, use one for each link item -->
+                            <li>
+                                <a href="#" class="item-link item-content">
+                                    <div class="item-media"><i class="icon f7-icons">document</i></div>
+                                    <div class="item-inner">
+                                    <div class="item-title">Bowel/Bladder</div>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="item-link item-content">
+                                    <div class="item-media"><i class="icon f7-icons">document</i></div>
+                                    <div class="item-inner">
+                                    <div class="item-title">Skin</div>
+                                    </div>
+                                </a>
+                            </li>
+
+                            <li>
+                                <a href="#" class="item-link item-content">
+                                    <div class="item-media"><i class="icon f7-icons">document</i></div>
+                                    <div class="item-inner">
+                                    <div class="item-title">Hormonal Changes</div>
+                                    </div>
+                                </a>
+                            </li>
+
+                        </ul>
+                    </div>
+
+                    <div class="block block-strong">
+                        <p>Thank you for using this app. It is designed to be a quick reference for patients with spinal cord injuries and their families.
+                            Please send us your feedback using this <a href="#">short form</a>.
+                        </p>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </div> <!-- end #app -->
+
+    <!-- Path to Framework7 Library JS-->
+    <script type="text/javascript" src="dist/js/framework7.min.js"></script>
+
+    <!-- App routes -->
+    <script src="js/routes.js"></script>
+
+    <!-- Path to your app js-->
+    <script type="text/javascript" src="js/app.js"></script>
+
+    
+
+    </body>
+</html>

@@ -1,0 +1,9 @@
+
+/* About */
+
+#sinailogo {
+    margin: 0 auto; /* horizontal center a div */
+}
+#sinailogo, #sinailogo img {
+    width: 200px;
+}
