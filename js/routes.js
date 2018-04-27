@@ -11,6 +11,10 @@ routes = [
         path: '/about/',
         url: './pages/about.html'
     },
+    {
+        path: '/single/',
+        url: './pages/single.html'
+    },
     
     // Default route (404 page). MUST BE THE LAST
     {
