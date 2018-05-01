@@ -1,7 +1,27 @@
 routes = [
     {
-        path: '/etiology/',
-        url: './pages/etiology.html'
+        path: '/what/',
+        url: './pages/what.html'
+    },
+    {
+        path: '/anatomy/',
+        url: './pages/anatomy.html'
+    },
+    {
+        path: '/paratetra/',
+        url: './pages/paratetra.html'
+    },
+    {
+        path: '/complete/',
+        url: './pages/complete.html'
+    },
+    {
+        path: '/UMNLMN/',
+        url: './pages/UMNLMN.html'
+    },
+    {
+        path: '/causes/',
+        url: './pages/causes.html'
     },
     {
         path: '/outcomes/',
@@ -12,9 +32,14 @@ routes = [
         url: './pages/about.html'
     },
     {
-        path: '/single/',
-        url: './pages/single.html'
+        path: '/bowel/',
+        url: './pages/bowel.html'
     },
+    {
+        path: '/spasticity/',
+        url: './pages/spasticity.html'
+    },
+    
     
     // Default route (404 page). MUST BE THE LAST
     {
