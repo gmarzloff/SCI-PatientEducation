@@ -55,6 +55,12 @@ routes = [
         path: '/pain/',
         url: './pages/pain.html'
     },
+    {
+        path: '/outcomes/',
+        url: './pages/outcomes.html'
+    },
+    
+    
     
     
     // Default route (404 page). MUST BE THE LAST
