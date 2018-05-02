@@ -43,6 +43,14 @@ routes = [
         path: '/bladder/',
         url: './pages/bladder.html'
     },
+    {
+        path: '/breathing/',
+        url: './pages/breathing.html'
+    },
+    {
+        path: '/AD/',
+        url: './pages/AD.html'
+    },
     
     
     // Default route (404 page). MUST BE THE LAST
