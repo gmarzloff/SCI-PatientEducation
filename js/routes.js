@@ -39,6 +39,10 @@ routes = [
         path: '/spasticity/',
         url: './pages/spasticity.html'
     },
+    {
+        path: '/bladder/',
+        url: './pages/bladder.html'
+    },
     
     
     // Default route (404 page). MUST BE THE LAST
