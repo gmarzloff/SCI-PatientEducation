@@ -32,7 +32,7 @@ p.center    { text-align: center; }
     margin: 0;
     text-align: center;
 }
-
+/* my #outcomeslist is not showing up without the dots */
 #spinesections li,  #ADfeatures li, #outcomeslist li {
     list-style: none;
 }
