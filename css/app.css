@@ -1,6 +1,8 @@
 
 /* Generic Convenience Classes */
 .bold       { font-weight: bold; }
+.italic     { font-style: italic}
+
 div.center  { margin: 0 auto; }
 p.center    { text-align: center; }
 
@@ -16,8 +18,10 @@ p.center    { text-align: center; }
 /* Anatomy (anatomy.html) style */
 
 #vertebraeContainer {
-    width: 300px;
+    width: 49%;
     display: inline-block;
+    vertical-align: top;
+    min-width: 225px;
 }
 
 #vertebraeTable { height: 260px; }
@@ -25,44 +29,38 @@ p.center    { text-align: center; }
 #vertebraeTable, #vertebraeTable th, #vertebraeTable td {
     border: 1px solid black;
     padding: 3px;
+    margin: 0;
     text-align: center;
 }
 
-<<<<<<< HEAD
-#spinesections li {
-=======
-.italic { font-style: italic}
-
 #spinesections li,  #ADfeatures li, #outcomeslist li {
->>>>>>> 7d048352dc1149a3fdcf001f56b81fa2c94a2056
     list-style: none;
 }
 
 #spineAnatomyImageContainer {
-    margin: 15px 5px;
-    width: 200px;
+    width: 49%;
     display: inline-block;
 }
 
-<<<<<<< HEAD
 #spineAnatomyImageContainer img {
-    width: 200px;
-}
-=======
-#SpineAnatomy img {
-    width: 150px;
-    }
-/* can't get the images to size correctly-I want them smaller */
-#cordanatomy img {
-    width: 250px;
+    width: 100%;
 }
 
-#spinalnerves {
-    width: 50%
+#cordAnatomy img {
+    width: 100%;
 }
-/* I want to float the spinebonesnerves image next to the spinal nerves div, they should share the space 50/50 */
 
-#spinebonesnerves, img {
-    width: 50%
+#spinalNervesLeftCol {
+    display: inline-block;
+    width: 49%;
+    vertical-align: top;
 }
->>>>>>> 7d048352dc1149a3fdcf001f56b81fa2c94a2056
+
+#spinalNervesRightCol {
+    display: inline-block;
+    width: 49%;
+}
+
+#spinalNervesRightCol img {
+    width: 100%;
+}
