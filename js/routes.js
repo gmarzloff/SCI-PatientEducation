@@ -59,6 +59,10 @@ routes = [
         path: '/outcomes/',
         url: './pages/outcomes.html'
     },
+    {
+        path: '/sexuality/',
+        url: './pages/sexuality.html'
+    },
     
     
     

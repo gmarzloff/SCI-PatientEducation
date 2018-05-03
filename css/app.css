@@ -28,7 +28,13 @@ p.center    { text-align: center; }
     text-align: center;
 }
 
+<<<<<<< HEAD
 #spinesections li {
+=======
+.italic { font-style: italic}
+
+#spinesections li,  #ADfeatures li, #outcomeslist li {
+>>>>>>> 7d048352dc1149a3fdcf001f56b81fa2c94a2056
     list-style: none;
 }
 
@@ -38,6 +44,25 @@ p.center    { text-align: center; }
     display: inline-block;
 }
 
+<<<<<<< HEAD
 #spineAnatomyImageContainer img {
     width: 200px;
 }
+=======
+#SpineAnatomy img {
+    width: 150px;
+    }
+/* can't get the images to size correctly-I want them smaller */
+#cordanatomy img {
+    width: 250px;
+}
+
+#spinalnerves {
+    width: 50%
+}
+/* I want to float the spinebonesnerves image next to the spinal nerves div, they should share the space 50/50 */
+
+#spinebonesnerves, img {
+    width: 50%
+}
+>>>>>>> 7d048352dc1149a3fdcf001f56b81fa2c94a2056
