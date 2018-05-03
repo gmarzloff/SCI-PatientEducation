@@ -1,5 +1,10 @@
 
-/* About */
+/* Generic Convenience Classes */
+.bold       { font-weight: bold; }
+div.center  { margin: 0 auto; }
+p.center    { text-align: center; }
+
+/* About (about.html) style */
 
 #sinailogo {
     margin: 0 auto; /* horizontal center a div */
@@ -8,22 +13,31 @@
     width: 200px;
 }
 
+/* Anatomy (anatomy.html) style */
 
-#vertebrae th, #vertebrae td, #vertebrae {
-    border: 1px solid black;
+#vertebraeContainer {
+    width: 300px;
+    display: inline-block;
 }
 
-.bold { font-weight: bold;}
+#vertebraeTable { height: 260px; }
 
-#spinesections li,  {
+#vertebraeTable, #vertebraeTable th, #vertebraeTable td {
+    border: 1px solid black;
+    padding: 3px;
+    text-align: center;
+}
+
+#spinesections li {
     list-style: none;
 }
 
-#SpineAnatomy {
-margin: top right bottom left;
-margin: 15px 5px;
+#spineAnatomyImageContainer {
+    margin: 15px 5px;
+    width: 200px;
+    display: inline-block;
 }
 
-#SpineAnatomy img {
-    width: 150px;
-    }
+#spineAnatomyImageContainer img {
+    width: 200px;
+}
