@@ -7,3 +7,23 @@
 #sinailogo, #sinailogo img {
     width: 200px;
 }
+
+
+#vertebrae th, #vertebrae td, #vertebrae {
+    border: 1px solid black;
+}
+
+.bold { font-weight: bold;}
+
+#spinesections li,  {
+    list-style: none;
+}
+
+#SpineAnatomy {
+margin: top right bottom left;
+margin: 15px 5px;
+}
+
+#SpineAnatomy img {
+    width: 150px;
+    }
