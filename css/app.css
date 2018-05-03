@@ -15,7 +15,9 @@
 
 .bold { font-weight: bold;}
 
-#spinesections li,  {
+.italic { font-style: italic}
+
+#spinesections li,  #ADfeatures li {
     list-style: none;
 }
 
@@ -27,3 +29,16 @@ margin: 15px 5px;
 #SpineAnatomy img {
     width: 150px;
     }
+/* can't get the images to size correctly-I want them smaller */
+#cordanatomy img {
+    width: 250px;
+}
+
+#spinalnerves {
+    width: 50%
+}
+/* I want to float the spinebonesnerves image next to the spinal nerves div, they should share the space 50/50 */
+
+#spinebonesnerves, img {
+    width: 50%
+}
