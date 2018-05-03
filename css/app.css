@@ -17,7 +17,7 @@
 
 .italic { font-style: italic}
 
-#spinesections li,  #ADfeatures li {
+#spinesections li,  #ADfeatures li, #outcomeslist li {
     list-style: none;
 }
 
