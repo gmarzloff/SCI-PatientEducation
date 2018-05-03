@@ -40,27 +40,26 @@ p.center    { text-align: center; }
 #spineAnatomyImageContainer {
     width: 49%;
     display: inline-block;
+    padding-top: 10px;
 }
 
 #spineAnatomyImageContainer img {
     width: 100%;
+    max-width: 400px;
 }
 
-#cordAnatomy img {
-    width: 100%;
-}
-
-#spinalNervesLeftCol {
+#cordAnatomyLeftCol, #spinalNervesLeftCol {
     display: inline-block;
     width: 49%;
     vertical-align: top;
 }
 
-#spinalNervesRightCol {
+#cordAnatomyRightCol, #spinalNervesRightCol {
     display: inline-block;
     width: 49%;
 }
 
-#spinalNervesRightCol img {
+#cordAnatomyRightCol img, #spinalNervesRightCol img {
     width: 100%;
+    max-width: 400px;
 }
