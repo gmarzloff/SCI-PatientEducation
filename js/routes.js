@@ -63,6 +63,14 @@ routes = [
         path: '/sexuality/',
         url: './pages/sexuality.html'
     },
+    {
+        path: '/bloodflow/',
+        url: './pages/bloodflow.html'
+    },
+    {
+        path: '/skin/',
+        url: './pages/skin.html'
+    },
     
     
     
