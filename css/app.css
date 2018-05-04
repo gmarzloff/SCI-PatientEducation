@@ -72,3 +72,8 @@ p.center    { text-align: center; }
 #bowelbasic img {
     width: 100%;
 } */
+
+/* Outcomes */
+.accordion-item-content p {
+    color: black;
+}
