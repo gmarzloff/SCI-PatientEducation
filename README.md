@@ -2,9 +2,9 @@
 
 # Spinal Cord Injury Education for Patients
 
-## Introduction
-
 ![SCI Education Web App](images/readme/screenshot.png)
+
+## Introduction
 
 This is a web app designed to be a quick reference for patients with spinal cord injuries and their families. It uses the [Framework7.io](https://framework7.io) library. Users with little to no experience can:
 
