@@ -48,18 +48,27 @@ p.center    { text-align: center; }
     max-width: 400px;
 }
 
-#cordAnatomyLeftCol, #spinalNervesLeftCol {
+#cordAnatomyLeftCol, #spinalNervesLeftCol, #bowelBasicLeftCol {
     display: inline-block;
     width: 49%;
     vertical-align: top;
 }
 
-#cordAnatomyRightCol, #spinalNervesRightCol {
+#cordAnatomyRightCol, #spinalNervesRightCol, #bowelBasicRightCol {
     display: inline-block;
     width: 49%;
 }
 
-#cordAnatomyRightCol img, #spinalNervesRightCol img {
+#cordAnatomyRightCol img, #spinalNervesRightCol img, #bowelBasicRightCol img {
     width: 100%;
     max-width: 400px;
 }
+
+/* #bowelbasic {
+    float: right; 
+    width: 50%;
+    display: inline-block;
+}
+#bowelbasic img {
+    width: 100%;
+} */
